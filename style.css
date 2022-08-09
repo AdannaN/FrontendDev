@@ -61,13 +61,14 @@ img{
 }
 .button{
     display: flex;
-    height:30px;
+    height:50px;
     align-items: center;
     justify-content: center;
-    border: 10px solid hsl(158, 36%, 37%);
     border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
     margin-top: 40px;
+    cursor:grab;
+    text-decoration: none;
 }
 .icon{
     width: 15px;
@@ -78,6 +79,12 @@ img{
     margin-left: 10px;
     font-family: 'Montserrat', sans-serif; 
     color: white;
+    text-decoration: none;
+    cursor: grab;
+}
+.button:hover{
+    background-color: hsl(212, 21%, 14%);
+
 }
 .attribution{
     display: flex;
