@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    margin-top: -100px;
+    width: 100%;
+    background-color:hsl(356, 100%, 66%);
+    border-radius:  0 0 0 45px;
+}
+.header_inner {
+    width: 100%;
+    margin-left: auto;
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    background-position: right 72% top 49%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+.logo img{
+    width: 70px;
+    padding: 20px;   
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Overpass', sans-serif;
+}
+.nav-links-left{
+    display: flex;
+    margin-left: 20px;
+}
+.nav-links-left ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+.nav-links-left ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.nav-links-left ul li img{
+    margin-left: 2px;
+}
+.nav-links-left ul li ul{
+    display: none;
+    border-radius: 10px;
+    width: 70%;
+    padding: 2px 35px;
+    position: absolute;
+    background-color: white;
+    
+}
+.nav-links-left ul li:hover ul{
+    display: block;
+}
+.nav-links-left ul li ul li{
+    line-height: 1px;
+}
+.nav-links-left ul li ul li a{
+    color:  hsl(237, 23%, 32%);
+    margin-left: -40px;
+    padding: 5px;
+    line-height: 1px;
+    font-weight: 600;
+}
+.nav-links-left ul li ul li a:hover{
+    color: black;
+    cursor:grab
+}
+.nav-links-left ul li img:hover{
+    transform: rotate(180deg);
+}
+.nav-links-right ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+.nav-links-right{
+    display: flex;
+    margin-right: 100px;
+}
+.nav-links-right ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.sign-btn {
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 20px;
+    color: hsl(356, 100%, 66%);
+    background-color: white; 
+    font-family: 'Overpass', sans-serif;
+}
+.sign-btn:hover{
+    background-color: hsl(353, 100%, 62%);
+    color: white;
+    cursor: grab;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 150px;
+    line-height: 1.5;
+}
+.text p:last-child{
+    font-size: 14px;
+}
+.text p:first-child{
+    font-size: 32px;
+    font-weight: 600;
+}
+.buttons{
+    display: inline-block;
+    margin-left: 550px;
+    padding: 20px;
+}
+
+.buttons button:first-child{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    font-weight: 600;
+}
+.buttons button:last-child{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    margin-left: 5px;
+}
+.buttons button:first-child:hover{
+    background-color: hsl(353, 100%, 62%);
+    color: white;
+    cursor: grab;
+}
+.buttons button:last-child:hover{
+    background-color: white;
+    cursor: grab;
+    color: hsl(353, 100%, 62%);
+}
+.body-one{
+    padding: 70px 0;
+}
+.wrapper{
+    display: flex;
+    padding: 5px;
+    margin: auto 210px;
+    
+}
+.body-one h3{
+    text-align:center;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+.content-left{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+.first h4{
+    margin-top: 10px;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+.first p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(237, 23%, 32%);
+}
+.second h4{
+    margin-top: 40px;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+.second p{
+    color: hsl(237, 23%, 32%);
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.content-right img{
+    width: 100%;
+}
+.body-two{
+    height: 20%;
+    width: 100%;
+    background-color: hsl(237, 17%, 21%);
+    border-radius: 0 45px 0 0;
+}
+.wrapper-two{
+    background-image: url(images/bg-pattern-circles.svg);
+    background-position: left 5% bottom 72%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: auto;
+    padding: 3px 0;
+}
+.flex-cont{
+    display: flex;
+    padding: 5px;
+    margin: auto 210px;
+}
+.content-left-two img{
+    width: 100%;
+    margin-top: -60px;
+}
+.content-right-two{
+    width: 100%;
+    padding: 20px;
+}
+.content-right-two h2{
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+.content-right-two p{
+    margin-top: 20px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 2;
+}
+.body-three{
+    padding: 70px 0;
+}
+.flex-cont-one{
+    display: flex;
+    padding: 5px;
+    margin: auto 120px;
+    
+}
+.content-left-three img{
+    width: 100%
+}
+.content-right-three{
+    margin-top: 110px;
+    width: 60%;
+    padding: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+.third h4{
+    margin-top: 10px;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+.third p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(237, 23%, 32%); 
+}
+.fourth h4{
+    margin-top: 10px;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+.fourth p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(237, 23%, 32%); 
+}
+footer{
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 45px 0 0;
+    padding: 70px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.flex-cont-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color:hsl(240, 2%, 79%);
+}
+.flex-cont-two img{
+    margin-top: -150px;
+}
+.left ul li{
+    text-align: left;
+    margin-left: 5px;
+    list-style-type: none;
+    line-height: 1;
+    margin-top: 20px;
+}
+.center ul li{
+    text-align: left;
+    margin-left: 5px;
+    list-style-type: none;
+    line-height: 1;
+    margin-top: 20px;
+}
+.right ul li{
+    text-align: left;
+    margin-left: 5px;
+    list-style-type: none;
+    line-height: 1;
+    margin-top: 20px;
+}
+.center{
+    margin-top: 10px;
+}
+.right{
+    margin-top: -20px;
+}
+.left{
+    margin-top: 40px
+}
+/* .center h4{
+    margin-right: 50px;
+} */
